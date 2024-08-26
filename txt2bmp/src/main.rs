@@ -121,7 +121,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let pad = if width % 4 == 0 {
         None
     } else {
-        Some(vec![0; width as usize % 4])
+        Some(vec![0; 4 - (width as usize % 4)])
     };
     data.chunks_exact(width as _)
         .map(|chunk| {
