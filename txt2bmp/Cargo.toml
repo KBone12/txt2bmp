@@ -1,6 +1,6 @@
 [package]
 name = "txt2bmp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Convert texts to a BMP image"
 
