@@ -1,0 +1,8 @@
+[package]
+name = "bmp2txt"
+version = "0.1.0"
+edition = "2021"
+description = "Convert a BMP image to texts"
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
